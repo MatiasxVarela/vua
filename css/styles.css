@@ -1,0 +1,50 @@
+form.cart .added_to_cart {
+  visibility: hidden; }
+
+.woocommerce-page .m-content-editor a:not(.m-button):after, .woocommerce-page .m-content-editor a:not(.m-button):before {
+  display: none; }
+.woocommerce-page .m-h3 {
+  text-align: left; }
+.woocommerce-page form.checkout_coupon, .woocommerce-page form.login, .woocommerce-page form.register {
+  border-style: none;
+  padding: 0; }
+.woocommerce-page .woocommerce button.button.m-button {
+  color: #ffffff; }
+
+.m-appointment .dates-options {
+  display: none; }
+
+#apointment_date_field, #appointment_time_field, #data_patients_field {
+  display: none;
+}
+
+#invoice_type_field .woocommerce-input-wrapper {
+  display: flex;
+  align-items: center; }
+  #invoice_type_field .woocommerce-input-wrapper .input-radio {
+    margin-right: 7px; }
+
+.woocommerce a.button.alt.m-button, .woocommerce button.button.alt.m-button, .woocommerce input.button.alt.m-button, .woocommerce #respond input#submit.alt.m-button {
+  background-color: #f06500;
+  background-image: linear-gradient(180deg,#e74500,#fe6c02);
+  border-radius: 10px;
+}
+
+.m-purchase__price__shipping {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 16px 19px;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-bottom: 8px; }
+  .m-purchase__price__shipping p {
+    margin: 0; }
+
+/*# sourceMappingURL=styles.css.map */
+@media only screen and (min-width:768px){
+  .m-type-document-wrapper {
+    padding-right: 10px;
+  }
+}
+

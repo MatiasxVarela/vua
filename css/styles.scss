@@ -1,0 +1,64 @@
+form.cart {
+  .added_to_cart {
+    visibility: hidden;
+  }
+}
+
+.woocommerce-page {
+  .m-content-editor a:not(.m-button):after, .m-content-editor a:not(.m-button):before {
+    display: none;
+  }
+
+  .m-h3 {
+    text-align: left;
+  }
+
+  form.checkout_coupon, form.login, form.register {
+    border-style: none;
+    padding: 0;
+  }
+
+  .woocommerce button.button.m-button {
+    color: #ffffff;
+  }
+
+}
+
+.m-appointment {
+  .dates-options {
+    display: none;
+  }
+}
+
+#apointment_date_field, #appointment_time_field {
+  display: none;
+}
+
+#invoice_type_field .woocommerce-input-wrapper {
+  display: flex;
+  align-items: center;
+
+  .input-radio {
+    margin-right: 7px;
+  }
+}
+
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt {
+  &.m-button {
+    background-color: transparent;
+  }
+}
+
+.m-purchase__price__shipping {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 16px 19px;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-bottom: 8px;
+
+  p {
+    margin: 0;
+  }
+}
